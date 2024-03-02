@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSSファイルの読み込み (css/style.css) -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- jQueryファイルの読み込み -->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <!-- axiosファイルの読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>課題作成用サンプル</title>
+</head>
+
+<body>
+
+
+<header>
+        <!-- HTMLの記述場所 START -->
+
+    <div class="photo-backimg"><img src="./img/part/creator3/creator3.gif" alt="フォトグラファー" widw="500px" height="200px">
+    <p class="p-title">photographer</p>
+    </div>
+    <p class="sen1">鳥取県内で活躍するフォトグラファーの皆様です。<br>
+        一生残しておきたい一瞬の記憶や<br>
+        フィルムにしか現れない魅力など<br>
+        唯一無二の「写真」で瞬間を彩ります。</p>
+
+        <!-- HTMLの記述場所 END -->
+    <script>
+            // JavaScriptの記述 START
+        $(".p-title").fadeOut("slow");
+        $(".p-title").fadeIn("slow");
+        $(".p-title").fadeOut("slow");
+        $(".p-title").fadeIn("slow");
+
+            // JavaScriptの記述 END
+    </script>
+</header>
+<main>
+    <div class="scroll_wrap">
+        <ul class="scroll_img">
+    
+            <div class="p-A">
+                <li><a href="./p-A.html"><img src="./img/part/creator3/photographer/A.jpeg" width="150px"
+                            height="150px" alt="moviec"></a></li>
+                <div class="mask">
+                    <div class="caption">星野アイ</div>
+                </div>
+            </div>
+            <div class="p-b">
+                <li><a href="./p-b.html"><img src="./img/part/creator3/photographer/B.jpeg" width="150px" height="150px" alt="moviec"></a></li>
+                <div class="mask">
+                    <div class="caption">蒼井葦人</div>
+                </div>
+            </div>
+    
+            <div class="p-c">
+                <li><a href="./p-c.html"><img src="./img/part/creator3/photographer/C.jpeg" width="150px" height="150px" alt="actor"></a></li>
+                <div class="mask">
+                    <div class="caption">四宮かぐや</div>
+                </div>
+            </div>
+    
+            <div class="p-d">
+                <li><a href="./p-d.html"><img src="./img/part/creator3/photographer/D.jpeg" width="150px" height="150px" alt="actor"></a></li>
+                <div class="mask">
+                    <div class="caption">黒崎一護</div>
+                </div>
+            </div>
+    </div>
+</main>
+</body>
